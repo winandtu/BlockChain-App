@@ -1,0 +1,85 @@
+[
+  {
+    "height": 0,
+    "timestamp": "05/05/2024",
+    "data": "Genesis Block",
+    "previousBlockHash": "0",
+    "hash": "01baf4a76a5dd01e40d9866ca884fe53926c06a4a8da597d2f25bd48468f009c"
+  },
+  {
+    "height": 1,
+    "timestamp": "2024-05-24T12:46:59.251Z",
+    "data": {
+      "name": "K-106",
+      "teamType": "Cilindro",
+      "key": "28"
+    },
+    "previousBlockHash": "01baf4a76a5dd01e40d9866ca884fe53926c06a4a8da597d2f25bd48468f009c",
+    "hash": "e4b35cad897ab5d2d2ac0657d2eafe5933dd934475b0af608c24b69b625dc763"
+  },
+  {
+    "height": 2,
+    "timestamp": "2024-05-24T13:02:37.935Z",
+    "data": {
+      "name": "K-102",
+      "teamType": "Bomba",
+      "key": "1"
+    },
+    "previousBlockHash": "e4b35cad897ab5d2d2ac0657d2eafe5933dd934475b0af608c24b69b625dc763",
+    "hash": "2c6a6cf4d0f89be61346713751dd1a7cfa000d0a095ddedeecf273121103bf2e"
+  },
+  {
+    "height": 3,
+    "timestamp": "2024-05-24T13:05:47.530Z",
+    "data": {
+      "name": "K-105",
+      "teamType": "Bomba2",
+      "key": "28"
+    },
+    "previousBlockHash": "2c6a6cf4d0f89be61346713751dd1a7cfa000d0a095ddedeecf273121103bf2e",
+    "hash": "a2cebc549b01e638e12960565b1865ef107abdb41c11ee9848abdc35bbe888d2"
+  },
+  {
+    "height": 4,
+    "timestamp": "2024-05-24T13:08:48.746Z",
+    "data": {
+      "name": "",
+      "teamType": "",
+      "key": ""
+    },
+    "previousBlockHash": "a2cebc549b01e638e12960565b1865ef107abdb41c11ee9848abdc35bbe888d2",
+    "hash": "9ca0b273348445378993496abb8c1a4f38d93f892197508fe02ea8aa4296ade8"
+  },
+  {
+    "height": 5,
+    "timestamp": "2024-05-24T13:10:28.280Z",
+    "data": {
+      "name": "",
+      "teamType": "",
+      "key": ""
+    },
+    "previousBlockHash": "9ca0b273348445378993496abb8c1a4f38d93f892197508fe02ea8aa4296ade8",
+    "hash": "3b8ac1db8e12b383a2868098870f2874a75a1bf2c5c60a64f425039e4adf671c"
+  },
+  {
+    "height": 6,
+    "timestamp": "2024-05-24T13:32:48.281Z",
+    "data": {
+      "name": "K-101",
+      "key": "77"
+    },
+    "previousBlockHash": "3b8ac1db8e12b383a2868098870f2874a75a1bf2c5c60a64f425039e4adf671c",
+    "hash": "5d1cb9ec0dae327b43a3656c2adec6803c4f4f333d06f31969b2af777b7f02de"
+  },
+  {
+    "height": 7,
+    "timestamp": "2024-05-24T13:37:24.188Z",
+    "data": {
+      "name": "K-111",
+      "equipmentType": "Cámara infrarroja ",
+      "key": "85"
+    },
+    "previousBlockHash": "5d1cb9ec0dae327b43a3656c2adec6803c4f4f333d06f31969b2af777b7f02de",
+    "hash": "f7254fd0ebdc58d890118c9ec109a18711213232da5808f23b684e19f34782e0"
+  }
+]

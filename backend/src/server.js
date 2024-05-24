@@ -17,8 +17,8 @@ app.get('/blockchain', (req, res) => {
 });
 
 app.post('/blockchain', (req, res) => {
-    const {name, teamType, key} = req.body;
-    const newBlock = new Block(myChain.chain.length, new Date().toISOString(), {name, teamType, key});
+    const {name, equipmentType, key} = req.body;
+    const newBlock = new Block(myChain.chain.length, new Date().toISOString(), {name, equipmentType, key});
     myChain.addBlock(newBlock);
     res.send("Block added to the chain");
 });

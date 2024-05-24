@@ -10,7 +10,7 @@ import ViewInArIcon from '@mui/icons-material/ViewInAr';
 
 const Home = () => {
     const [name, setName] = useState('');
-    const [teamType, setTeamType] = useState('');
+    const [equipmentType, setEquipmentType] = useState('');
     const [key, setKey] = useState('');
     const [message, setMessage] = useState('');
     const [isValid, setIsValid] = useState('');
@@ -23,13 +23,13 @@ const Home = () => {
         try {
             const response = await axios.post('http://localhost:3000/blockchain', {
                 name,
-                teamType,
+                equipmentType,
                 key,
             });
             setMessage(response.data);
 
             setName('');
-            setTeamType('');
+            setEquipmentType('');
             setKey('');
 
             handleValidate();
@@ -71,9 +71,9 @@ const Home = () => {
                 />
                 <TextField
                     type="text"
-                    label="Team Type"
-                    value={teamType}
-                    onChange={(e) => setTeamType(e.target.value)}
+                    label="Equipment Type"
+                    value={equipmentType}
+                    onChange={(e) => setEquipmentType(e.target.value)}
                 />
                 <TextField
                     type="text"

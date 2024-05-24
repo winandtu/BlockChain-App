@@ -20,10 +20,15 @@ const SearchBlock = () => {
                 setLoading(false);
             }, 2000);
         } catch (error) {
-            setError('Block not found');
+
             console.error('Error searching for block:', error);
             setBlock(null);
             setKeySearch('');
+
+            setTimeout(() => {
+                setError('Block not found');
+                setLoading(false);
+            }, 2000);
         }
     };
 
@@ -53,7 +58,17 @@ const SearchBlock = () => {
                 >
                     Search
                 </Button>
-                {error && <p>{error}</p>}
+                {error && (<>
+                    <div className='blockchain-details'>
+
+                        {loading ? (
+                            <>
+                                <CircularProgress />
+
+                            </>) :
+                            <p>{error}</p>}
+                    </div>
+                </>)}
 
                 {block && (
                     <>
