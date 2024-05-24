@@ -1,0 +1,75 @@
+[
+  {
+    "height": 0,
+    "timestamp": "05/05/2024",
+    "data": "Genesis Block",
+    "previousBlockHash": "0",
+    "hash": "01baf4a76a5dd01e40d9866ca884fe53926c06a4a8da597d2f25bd48468f009c"
+  },
+  {
+    "height": 1,
+    "timestamp": "2024-05-24T00:57:25.308Z",
+    "data": {
+      "name": "SE-106",
+      "teamType": "Separador Bifásico de Producción",
+      "key": "104"
+    },
+    "previousBlockHash": "01baf4a76a5dd01e40d9866ca884fe53926c06a4a8da597d2f25bd48468f009c",
+    "hash": "8964098c107367825ea3e93f0f8b544d33c1f1515ed5a22d6f6eb19b1bd5fe90"
+  },
+  {
+    "height": 2,
+    "timestamp": "2024-05-24T01:32:18.047Z",
+    "data": {
+      "name": "P-1731",
+      "teamType": "Bomba",
+      "key": "79"
+    },
+    "previousBlockHash": "8964098c107367825ea3e93f0f8b544d33c1f1515ed5a22d6f6eb19b1bd5fe90",
+    "hash": "9ffdb55e995d226afbbaaeec3a13e9355139417c952918c5332a31ab26504235"
+  },
+  {
+    "height": 3,
+    "timestamp": "2024-05-24T04:51:58.798Z",
+    "data": {
+      "name": "K-101",
+      "teamType": "Tanque de Almacenamiento",
+      "key": "77"
+    },
+    "previousBlockHash": "9ffdb55e995d226afbbaaeec3a13e9355139417c952918c5332a31ab26504235",
+    "hash": "47bdfc378a0ddb8798f3d7207fdbadd6c4b33ecc000d42755907c9a5014f1fd4"
+  },
+  {
+    "height": 4,
+    "timestamp": "2024-05-24T05:08:40.611Z",
+    "data": {
+      "name": "F-1731",
+      "teamType": "Filtro Coalescente",
+      "key": "80"
+    },
+    "previousBlockHash": "47bdfc378a0ddb8798f3d7207fdbadd6c4b33ecc000d42755907c9a5014f1fd4",
+    "hash": "b4b9f606de5a8ac3613980db94ae2da2cfe208496ed1f9bc0b13fa006e3ed1f7"
+  },
+  {
+    "height": 5,
+    "timestamp": "2024-05-24T05:32:14.675Z",
+    "data": {
+      "name": "P-1731",
+      "teamType": "Bomba",
+      "key": "78"
+    },
+    "previousBlockHash": "b4b9f606de5a8ac3613980db94ae2da2cfe208496ed1f9bc0b13fa006e3ed1f7",
+    "hash": "c767704846a671a13bf7f5fbad457ef8b104f0d420739f32dd4ded31b42821b7"
+  },
+  {
+    "height": 6,
+    "timestamp": "2024-05-24T07:38:28.537Z",
+    "data": {
+      "name": "K-105",
+      "teamType": "Tubo de gas",
+      "key": "24"
+    },
+    "previousBlockHash": "c767704846a671a13bf7f5fbad457ef8b104f0d420739f32dd4ded31b42821b7",
+    "hash": "50c1c90bf3f4d3845804275400093f51f9226cad3093257e614cb58797d9593e"
+  }
+]

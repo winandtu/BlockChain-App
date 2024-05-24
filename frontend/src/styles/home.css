@@ -1,0 +1,83 @@
+.home-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.home-form button {
+    padding: 10px 20px;
+    background-color: #1BA1CC;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.home-form button:hover {
+    background-color: #61DAFB;
+}
+
+.validation-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.validation-container h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.valid {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.invalid {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.MuiButton-containedPrimary {
+    background-color: #1976d2;
+    color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #1565c0;
+}
+
+.app-logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    display: block;
+    
+}
