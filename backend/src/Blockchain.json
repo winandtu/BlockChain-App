@@ -81,5 +81,27 @@
     },
     "previousBlockHash": "5d1cb9ec0dae327b43a3656c2adec6803c4f4f333d06f31969b2af777b7f02de",
     "hash": "f7254fd0ebdc58d890118c9ec109a18711213232da5808f23b684e19f34782e0"
+  },
+  {
+    "height": 8,
+    "timestamp": "2024-05-25T21:52:22.323Z",
+    "data": {
+      "name": "SE-106",
+      "equipmentType": "Separador Bifásico",
+      "key": "104"
+    },
+    "previousBlockHash": "f7254fd0ebdc58d890118c9ec109a18711213232da5808f23b684e19f34782e0",
+    "hash": "76ec89d4f5d3449c93f015c61d0043a6f8ea384d177618937ecf86abe43fbbdd"
+  },
+  {
+    "height": 9,
+    "timestamp": "2024-05-25T22:06:36.298Z",
+    "data": {
+      "name": "P-1731",
+      "equipmentType": "Bomba",
+      "key": "789"
+    },
+    "previousBlockHash": "76ec89d4f5d3449c93f015c61d0043a6f8ea384d177618937ecf86abe43fbbdd",
+    "hash": "9b0a9c4a9162f6b31aec7bfe1d4797c15491c358fb1463c2cc52345900966f80"
   }
 ]
